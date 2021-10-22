@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "exma2RG17I04002"

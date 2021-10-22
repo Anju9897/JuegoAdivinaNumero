@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anju9/OneDrive/Documentos/USO/Ciclo 02-20/Moviles/Parciales/exma2RG17I04002/app/src/main/res/layout-land/activity_juego_principal.xml" value="0.4" />
+        <entry key="..\:/Users/Anju9/OneDrive/Documentos/USO/Ciclo 02-20/Moviles/Parciales/exma2RG17I04002/app/src/main/res/layout/activity_configuraciones.xml" value="0.4" />
+        <entry key="..\:/Users/Anju9/OneDrive/Documentos/USO/Ciclo 02-20/Moviles/Parciales/exma2RG17I04002/app/src/main/res/layout/activity_juego_principal.xml" value="0.536" />
+        <entry key="..\:/Users/Anju9/OneDrive/Documentos/USO/Ciclo 02-20/Moviles/Parciales/exma2RG17I04002/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Anju9/OneDrive/Documentos/USO/Ciclo 02-20/Moviles/Parciales/exma2RG17I04002/app/src/main/res/layout/activity_mayor_puntaje.xml" value="0.511500547645126" />
+        <entry key="..\:/Users/Anju9/OneDrive/Documentos/USO/Ciclo 02-20/Moviles/Parciales/exma2RG17I04002/app/src/main/res/layout/activity_plantilla_puntaje.xml" value="0.6" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

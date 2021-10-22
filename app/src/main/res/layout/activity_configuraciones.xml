@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".Configuraciones">
+
+    <EditText
+        android:id="@+id/txtJugador"
+        android:layout_width="239dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Ejemplo: Juan"
+        android:inputType="textPersonName"
+        android:textColor="@color/color_uno"
+        android:textColorHint="#624D9DE0"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:text="@string/nivel"
+        android:textColor="#4D80E0"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGuardarConf"
+        app:layout_constraintEnd_toStartOf="@+id/rgNiveles"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnGuardarConf"
+        android:layout_width="181dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/color_dos"
+        android:text="@string/aceptar"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgNiveles"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Usuario"
+        android:textColor="#4D80E0"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtJugador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <RadioGroup
+        android:id="@+id/rgNiveles"
+        android:layout_width="130dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667">
+
+        <RadioButton
+            android:id="@+id/rbFacil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facil"
+            android:textColor="@color/color_uno"
+            android:textColorHint="#624D9DE0"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rbMedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/medio"
+            android:textColor="@color/color_uno"
+            android:textColorHint="#624D9DE0"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rbDificil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deficil"
+            android:textColor="@color/color_uno"
+            android:textColorHint="#624D9DE0"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="182dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/settings"
+        app:tint="@color/color_cuatro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

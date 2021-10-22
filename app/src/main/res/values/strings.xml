@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">exma2RG17I04002</string>
+    <string name="Alumno">Juan José Ramos García</string>
+    <string name="Empresa">Titanes de El Salvador</string>
+    <string name="info">Segundo Parcial DM</string>
+    <string name="aceptar">Guardar Cambios</string>
+    <string name="puntuaciones">Mejores Puntuaciones</string>
+    <string name="adivina">¿EN QUE NUMERO ESTOY PENSANDO?</string>
+
+    <string name="Usuario">Nombre de Jugador:</string>
+    <string name="nivel">Nivel:</string>
+    <string name="facil">Facil</string>
+    <string name="medio">Medio</string>
+    <string name="deficil">Dificil</string>
+
+</resources>
